@@ -1,0 +1,54 @@
+@import "@/styles/variables.module.scss";
+
+.baseContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.bodyContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.writerInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding: 10px 20px;
+  font-size: 14px;
+}
+.writerInfoWriter {
+  color: var(--color-text-1);
+}
+
+.writerInfoDate {
+  color: $color-gray;
+}
+
+.delButton {
+  padding: 10px 0px;
+  font-size: 14px;
+  color: red;
+  cursor: pointer;
+}
+
+.comment {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding: 10px 20px;
+  font-size: 14px;
+  color: var(--color-text-1);
+}

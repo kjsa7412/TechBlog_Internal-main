@@ -1,0 +1,35 @@
+@import "@/styles/variables.module.scss";
+
+.text {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.baseContainer {
+  display: flex;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: $height-footer * 2;
+  background-color: $color-black;
+}
+
+@media (max-width: $bp-lg) {
+  .content {
+    width: 100%;
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: $bp-lg;
+  height: $height-footer;
+  padding-right: $default-padding;
+  padding-left: $default-padding;
+}

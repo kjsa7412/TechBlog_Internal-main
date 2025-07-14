@@ -1,0 +1,30 @@
+@import "@/styles/variables.module.scss";
+
+.baseContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  color: var(--color-text-1);
+  cursor: pointer;
+}
+
+.popLike {
+  animation: popAnimation 0.2s ease-in-out;
+}
+
+@keyframes popAnimation {
+  0% {
+    transform: scale(0.7);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}

@@ -1,0 +1,54 @@
+@import "@/styles/variables.module.scss";
+
+.baseContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-button-text);
+  font-weight: bold;
+  cursor: pointer;
+
+  &.Small {
+    width: 100px;
+    height: 40px;
+  }
+
+  &.Medium {
+    width: 150px;
+    height: 50px;
+  }
+
+  &.Large {
+    width: 300px;
+    height: 42px;
+  }
+
+  &.Round {
+    border-radius: 50px;
+  }
+
+  &.Square {
+    border-radius: 5px;
+  }
+
+  &.Black {
+    background-color: var(--color-button-background);
+  }
+
+  &.Red {
+    background-color: $color-red;
+  }
+
+  &.Stroke {
+    background-color: transparent;
+    border: 1px solid var(--color-button-background);;
+    color: var(--color-text-1);
+  }
+
+  &.None {
+    background-color: transparent;
+    color: var(--color-text-1);
+  }
+}
+

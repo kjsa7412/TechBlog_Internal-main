@@ -1,0 +1,15 @@
+.baseContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.inputBox {
+  width: 100%;
+  background-color: transparent;
+  color: var(--color-input-text);
+  font-size: 21px;
+  margin-top: 20px;
+}

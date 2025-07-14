@@ -1,0 +1,84 @@
+// theme-dark
+$text-color-dark-1: white;
+$text-color-dark-2: black;
+$bg-color-dark-1: #2B2B2B;
+$bg-color-dark-2: #525252;
+$icon-color-dark: white;
+
+$btn-bg-color-dark: white;
+$btn-text-color-dark: black;
+
+$input-border-color-dark: white;
+$input-text-color-dark: white;
+
+$popupLabel-text-color-dark: white;
+
+$dot-color-active-dark: gray;
+$dot-color-dark: #ddd;
+
+// theme-light
+$text-color-light-1: black;
+$text-color-light-2: white;
+$bg-color-light-1: white;
+$bg-color-light-2: #F9F9F9;
+$icon-color-light: #C0C0C0;
+
+$btn-bg-color-light: black;
+$btn-text-color-light: white;
+
+$input-border-color-light: black;
+$input-text-color-light: black;
+
+$popupLabel-text-color-light: gray;
+
+$dot-color-active-light: #ddd;
+$dot-color-light: #333;
+
+// default
+$default-padding: 24px;
+$default-width-contents: 1248px;
+
+
+// colors
+$color-white: #ffffff;
+$color-black: #000000FF;
+$color-blue: #2C2CFFFF;
+$color-red: #ff0000;
+$color-gray: #C0C0C0;
+$color-text: #000;
+$color-text-light: #fff;
+$color-lightGray: #d3d3d3;
+$color-lightGray2: #e8e8e8;
+
+// z index levels
+$level-1: 1;
+$level-2: 2;
+$level-3: 3;
+$level-4: 4;
+$level-5: 5;
+$level-global-header: 1000;
+$level-global-popup: 2000;
+$level-global-overlay: 5000;
+$level-global-top: 9000;
+
+// break points
+$bp-xs: 575px;
+$bp-sm: 767px;
+$bp-md: 900px;
+$bp-lg: 1248px;
+
+// path
+// font
+$font-popup-menu: 14px;
+$font-header: 14px;
+$font-footer: 14px;
+$font-banner: 40px;
+$font-search: 30px;
+
+// height
+$height-header: 54px;
+$height-banner: 354px;
+$height-footer: 68px;
+
+// blank
+$blank-header: $height-header;

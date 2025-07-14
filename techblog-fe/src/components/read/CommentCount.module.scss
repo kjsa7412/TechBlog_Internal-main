@@ -1,0 +1,10 @@
+@import "@/styles/variables.module.scss";
+
+.baseContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  color: var(--color-text-1);
+}

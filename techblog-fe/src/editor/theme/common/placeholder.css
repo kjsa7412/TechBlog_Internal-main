@@ -1,0 +1,9 @@
+.milkdown {
+  .crepe-placeholder::before {
+    position: absolute;
+    color: rgb(117, 117, 117);
+    pointer-events: none;
+    height: 0;
+    content: attr(data-placeholder);
+  }
+}

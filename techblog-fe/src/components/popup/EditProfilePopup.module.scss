@@ -1,0 +1,109 @@
+@import "@/styles/variables.module.scss";
+
+.baseContainer {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  //justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 600px;
+  background-color: var(--color-background-2);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+
+  @media (max-width: 500px) {
+    width: 100%;
+  }
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  font-size: 28px;
+  font-weight: bold;
+  color: var(--color-text-1);
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex: 1;
+  padding: 30px;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 150px;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--color-popupLabel-text);
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.profileContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+
+  .avatarContainer {
+    width: 80px;
+    height: 80px;
+  }
+
+  .avatarImage {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%; /* 원형으로 만들기 */
+    object-fit: cover; /* 이미지 비율 유지 */
+  }
+
+  .infoContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 30px;
+  }
+
+  .delete {
+    font-size: 16px;
+    color: red;
+  }
+
+  .desc {
+    font-size: 14px;
+    font-weight: lighter;
+    color: var(--color-popupLabel-text);
+  }
+}
+

@@ -1,0 +1,39 @@
+.baseContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100%;
+}
+
+.label {
+  font-size: 10px;
+  font-weight: bold;
+  color: white;
+}
+
+.toggleContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 35px;
+  height: 18px;
+  border-radius: 30px;
+  padding: 2px;
+  background-color: gray;
+  transition: background-color 0.3s;
+
+  &.checked {
+    justify-content: flex-end;
+    background-color: greenyellow;
+  }
+}
+
+.toggle {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: rgb(255,254,255);
+}

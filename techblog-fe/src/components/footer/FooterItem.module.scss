@@ -1,0 +1,64 @@
+@import "@/styles/variables.module.scss";
+
+.logoContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100%;
+
+  p {
+    font-size: $font-footer;
+    font-weight: bold;
+    color: $color-white;
+  }
+}
+
+// Toggle.scss
+.toggle-container {
+  position: relative;
+  margin-top: 8rem;
+  left: 47%;
+  cursor: pointer;
+  width: 50px;
+  height: 24px;
+  border-radius: 30px;
+  background-color: rgb(233, 233, 234);
+
+  &.toggle--checked {
+    background-color: rgb(0, 200, 102);
+    transition: 0.5s;
+  }
+
+  .toggle-circle {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background-color: rgb(255, 254, 255);
+    transition: 0.5s;
+
+    &.toggle--checked {
+      left: 27px;
+      transition: 0.5s;
+    }
+  }
+}
+
+.desc {
+  text-align: center;
+  margin: 20px;
+
+  .OFF {
+    // 추가 스타일 필요시 여기에 작성
+  }
+
+  .ON {
+    // 추가 스타일 필요시 여기에 작성
+  }
+}
+
+

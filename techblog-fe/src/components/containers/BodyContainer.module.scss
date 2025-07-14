@@ -1,0 +1,21 @@
+@import "@/styles/variables.module.scss";
+
+.baseContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  flex: 1;
+}
+
+.baseEditorContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  flex: 1;
+  max-height: calc(100vh - 90px); // 100vh - (topHeader 높이(54px) + 36px 빼기)
+  overflow-y: auto;
+}

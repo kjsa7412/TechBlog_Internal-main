@@ -1,0 +1,14 @@
+@import "@/styles/variables.module.scss";
+
+.baseContainer {
+  display: flex;
+  flex-shrink: 0;
+}
+
+.HeaderBlank {
+  height: $blank-header;
+}
+
+.HeaderTest {
+  height: 100px;
+}

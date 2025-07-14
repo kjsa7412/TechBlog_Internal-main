@@ -1,0 +1,53 @@
+@import "@/styles/variables.module.scss";
+
+// 기본 스타일 설정
+.inputBox {
+  background-color: transparent;
+  border: 1px solid var(--color-input-border);
+  color: var(--color-input-text);
+  font-size: 14px;
+  height: 42px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  &::placeholder {
+    font-size: 14px;
+    color: $color-gray;
+  }
+
+  // 모서리 스타일
+  &.Round {
+    border-radius: 50px;
+  }
+
+  &.Square {
+    border-radius: 5px;
+  }
+}
+
+// 텍스트 정렬 클래스
+.textAlign {
+  &-center {
+    text-align: center;
+
+    .inputBox::placeholder {
+      text-align: center;
+    }
+  }
+
+  &-left {
+    text-align: left;
+
+    .inputBox::placeholder {
+      text-align: left;
+    }
+  }
+
+  &-right {
+    text-align: right;
+
+    .inputBox::placeholder {
+      text-align: right;
+    }
+  }
+}

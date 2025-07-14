@@ -1,0 +1,77 @@
+@import './normalize.module.scss';
+@import './variables.module.scss';
+
+html[data-theme="light"] {
+  --color-text-1: #{$text-color-light-1};
+  --color-text-2: #{$text-color-light-2};
+  --color-background-1: #{$bg-color-light-1};
+  --color-background-2: #{$bg-color-light-2};
+  --color-icon: #{$icon-color-light};
+  --color-button-background: #{$btn-bg-color-light};
+  --color-button-text: #{$btn-text-color-light};
+  --color-input-border: #{$input-border-color-light};
+  --color-input-text: #{$input-text-color-light};
+  --color-popupLabel-text: #{$popupLabel-text-color-light};
+  --color-dot-active: #{$dot-color-active-light};
+  --color-dot: #{$dot-color-light};
+
+  --board-color-background: #FFFFFF;
+  --board-color-on-background: #000000;
+  --board-color-surface: #F7F7F7;
+  --board-color-surface-low: #EDEDED;
+  --board-color-on-surface: #1C1C1C;
+  --board-color-on-surface-variant: #4D4D4D;
+  --board-color-outline: #A8A8A8;
+  --board-color-primary: #333333;
+  --board-color-secondary: #CFCFCF;
+  --board-color-on-secondary: #000000;
+  --board-color-inverse: #F0F0F0;
+  --board-color-on-inverse: #1A1A1A;
+  --board-color-inline-code: #BA1A1A;
+  --board-color-error: #BA1A1A;
+  --board-color-hover: #E0E0E0;
+  --board-color-selected: #D5D5D5;
+  --board-color-inline-area: #CACACA;
+  --board-font-title: "Noto Serif", Cambria, "Times New Roman", Times, serif;
+  --board-font-default: "Noto Sans", Arial, Helvetica, sans-serif;
+  --board-font-code: "Space Mono", Fira Code, Menlo, Monaco, "Courier New", Courier, monospace;
+  --board-shadow-1: 0px 1px 3px 1px rgba(0, 0, 0, 0.15), 0px 1px 2px 0px rgba(0, 0, 0, 0.30);
+  --board-shadow-2: 0px 2px 6px 2px rgba(0, 0, 0, 0.15), 0px 1px 2px 0px rgba(0, 0, 0, 0.30);
+}
+
+html[data-theme="dark"] {
+  --color-text-1: #{$text-color-dark-1};
+  --color-text-2: #{$text-color-dark-2};
+  --color-background-1: #{$bg-color-dark-1};
+  --color-background-2: #{$bg-color-dark-2};
+  --color-button-background: #{$btn-bg-color-dark};
+  --color-button-text: #{$btn-text-color-dark};
+  --color-input-border: #{$input-border-color-dark};
+  --color-input-text: #{$input-text-color-dark};
+  --color-popupLabel-text: #{$popupLabel-text-color-dark};
+  --color-dot-active: #{$dot-color-active-dark};
+  --color-dot: #{$dot-color-dark};
+
+  --board-color-background: #2b2b2b;
+  --board-color-on-background: #E6E6E6;
+  --board-color-surface: #121212;
+  --board-color-surface-low: #1C1C1C;
+  --board-color-on-surface: #D1D1D1;
+  --board-color-on-surface-variant: #A9A9A9;
+  --board-color-outline: #757575;
+  --board-color-primary: #B5B5B5;
+  --board-color-secondary: #4D4D4D;
+  --board-color-on-secondary: #D6D6D6;
+  --board-color-inverse: #E5E5E5;
+  --board-color-on-inverse: #2A2A2A;
+  --board-color-inline-code: #FF6666;
+  --board-color-error: #FF6666;
+  --board-color-hover: #232323;
+  --board-color-selected: #32353A;
+  --board-color-inline-area: #121212;
+  --board-font-title: "Noto Serif", Cambria, "Times New Roman", Times, serif;
+  --board-font-default: "Noto Sans", Arial, Helvetica, sans-serif;
+  --board-font-code: "Space Mono", Fira Code, Menlo, Monaco, "Courier New", Courier, monospace;
+  --board-shadow-1: 0px 1px 2px 0px rgba(255, 255, 255, 0.30), 0px 1px 3px 1px rgba(255, 255, 255, 0.15);
+  --board-shadow-2: 0px 1px 2px 0px rgba(255, 255, 255, 0.30), 0px 2px 6px 2px rgba(255, 255, 255, 0.15);
+}

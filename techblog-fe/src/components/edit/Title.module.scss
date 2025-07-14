@@ -1,0 +1,20 @@
+.baseContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.inputBox {
+  width: 100%;
+  background-color: transparent;
+  color: var(--color-input-text);
+  font-size: 42px;
+  margin-top: 20px;
+  white-space: nowrap; // 텍스트 줄 바꿈 방지
+  overflow-x: auto; // 가로 스크롤 허용
+  overflow-y: hidden; // 세로 스크롤 숨김
+  resize: none; // 수동 크기 조정 비활성화
+}
+

@@ -1,0 +1,31 @@
+@import "@/styles/variables.module.scss";
+
+.baseContainer {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: $default-padding;
+  padding-right: $default-padding;
+  width: 100%;
+  height: $height-header;
+  z-index: $level-global-header;
+  top: 0px;
+  background-color: var(--color-background-1);
+}
+
+.leftContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+}
+
+.rightContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+}

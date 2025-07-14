@@ -1,0 +1,40 @@
+@import "@/styles/_variables.module.scss";
+
+.baseContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 54px;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 280px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: var(--color-background-2);
+  padding-right: 20px;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 100%;
+}
+
+.input {
+  display: flex;
+  height: 100%;
+  flex: 1;
+  background-color: transparent;
+  outline: none;
+  color: var(--color-text-1);
+}

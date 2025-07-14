@@ -1,0 +1,29 @@
+@import "@/styles/variables.module.scss";
+
+.baseContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex:1;
+}
+
+.loadingContainer {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+  background: lightgray;
+}
+
+.notifyContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: 200px;
+  font-size: 16px;
+  color: var(--color-text-1);
+  line-height: 1.6;
+}

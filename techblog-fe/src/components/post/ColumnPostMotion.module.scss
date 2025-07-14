@@ -1,0 +1,78 @@
+@import "@/styles/variables.module.scss";
+
+$transition-duration: 0.5s;
+$transition-ease: ease;
+$background-overlay: rgba(0, 0, 0, 0.3);
+$background-overlay-hover: rgba(0, 0, 0, 0.5);
+
+.baseContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.postContainer {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+  flex: 1;
+  height: 388px;
+  margin-right: 10px;
+  transition: flex $transition-duration $transition-ease;
+
+  &:hover {
+    flex: 3;
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.overlay {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: $background-overlay;
+  border-radius: 10px;
+  transition: background $transition-duration $transition-ease;
+
+  .postContainer:hover & {
+    background: $background-overlay-hover;
+  }
+}
+
+.infoContainer {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  color: $color-white;
+  bottom: 0;
+  overflow: hidden;
+  text-align: left;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 24px;
+  padding-bottom: 5px;
+}
+
+.excerpt {
+  padding-top: 20px;
+}
