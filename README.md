@@ -10,7 +10,6 @@
     
     <img width="100%" alt="Service" src="https://github.com/user-attachments/assets/3cc00bc4-dd96-4a04-a997-c10dc4eabe6f"/>
     
-- 외부 사용자용 프로젝트 정보는 [기술 블로그 (외부 사용자)](https://github.com/Oh-byeongju/TechBlog_External)를 참고해주세요.
 ### **2. 개발 기간**
 - 2024.08.01 ~ 2024.12.31
 
